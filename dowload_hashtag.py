@@ -51,7 +51,7 @@ def wait_and_quit(driver):
 
 hashtag = raw_input('Put the hashtag to be downloaded: \n')
 if not os.path.exists(FTP_DIR + hashtag): # Directory that I want to save the image to
-        os.mkdir(hashtag) # If no directory create it
+        os.mkdir(FTP_DIR + hashtag) # If no directory create it
 
 caps["marionette"] = True
 driver = webdriver.Firefox(capabilities=caps)
