@@ -11,7 +11,7 @@ import traceback
 
 ######################GLOBAL VARS################################
 caps = DesiredCapabilities.FIREFOX
-exp = r'https:\/\/scontent-mad1[a-z|A-Z|_|\/|\-|\.|0-9|+\.]+'
+exp = r'https:\/\/scontent-waw1[a-z|A-Z|_|\/|\-|\.|0-9|+\.]+'
 TIME_TO_WAIT = 60
 FTP_DIR = '/tmp/' #put slash at the end of the var. The photos will be download in this dir + hashtag
 ################################################################
